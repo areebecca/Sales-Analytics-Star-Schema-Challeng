@@ -16,13 +16,12 @@ LIMIT 10;
 /*Task 2: Customer Filtering
 Find all female customers from Japan OR who joined after 2023-01-01. Show their full name, email, and country.*/
 SELECT
-   first_name,
-   last_name,
+   first_name || ' ' || last_name AS full_name, 
    email,
    country
 FROM dim_customer
 WHERE gender='F' 
-AND (country= 'Japan' OR  join_date > '2023-01-01');
+AND (country= 'Japan' OR join_date > '2023-01-01');
 
 /*Task 3: Pattern Search
 Find all customers whose first name starts with “T” and is exactly 4 characters long.*/
@@ -62,11 +61,9 @@ ORDER BY store_name ASC;
 Find the top 3 brands by average product price, but only for products priced above 200. Round all averages to 2 decimal places.*/
 SELECT
    brand,
-   ROUND(AVG(unit_price),2) AS avg_product
+   ROUND(AVG(unit_price), 2) AS avg_product
 FROM dim_product
 WHERE unit_price > 200
 GROUP BY brand
-ORDER BY ROUND(AVG(unit_price),2) DESC
+ORDER BY avg_product DESC
 LIMIT 3;
-
-
