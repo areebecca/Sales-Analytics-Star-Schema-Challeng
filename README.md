@@ -5,7 +5,7 @@ A comprehensive SQL-based analysis project focused on designing a data warehouse
 ## Tools Used
 Database Engine: PostgreSQL
 
-SQL Dialect: PL/pgSQL
+SQL Dialect: pgSQL
 
 Data Modeling Technique: Star Schema (Dimension & Fact Tables)
 
@@ -43,4 +43,5 @@ One of the key challenges in this lab was identifying brand performance based on
 <img width="1504" height="337" alt="Screenshot 2026-04-21 181403" src="https://github.com/user-attachments/assets/6959ba4f-5623-4c83-afb8-67dc820e762e" />
 <img width="1501" height="219" alt="Screenshot 2026-04-21 175500" src="https://github.com/user-attachments/assets/522aee65-8266-4700-a68f-7dcae0c5508a" />
 <img width="1506" height="333" alt="Screenshot 2026-04-21 175512" src="https://github.com/user-attachments/assets/82e7565f-7df8-4d21-b64c-988c58087add" />
-<img width="1503" height="871" alt="Screenshot 2026-04-21 175530" src="https://github.com/user-attachments/assets/378e8e48-7e6c-4d38-a1cd-933a9fc2e3e1" />
+<img width="1503" height="814" alt="Screenshot 2026-04-21 182553" src="https://github.com/user-attachments/assets/acf5824d-8010-4de0-93f7-8b2f5bf4502e" />
+
